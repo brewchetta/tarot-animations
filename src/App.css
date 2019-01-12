@@ -5,9 +5,13 @@
   width: 100vw;
   max-height: 400px;
   max-width: 320px;
+  padding: 0;
 }
 
 .card-animation {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   height: 100%;
   width: 100%;
 }
