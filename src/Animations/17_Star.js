@@ -1,3 +1,6 @@
+// Stars spin around the lighthouse center
+// Lighthouse center glows luminousl (possibly use firefly from moon)
+
 import React from 'react'
 
 const StarAnimation = props => {
