@@ -3,14 +3,18 @@
 // A lot of something is flowing down, changing colors along rainbow lines
 
 import React from 'react'
-import asset from '../Assets/3_Empress.png'
+import river from '../Assets/14_Temperance_River.png'
 
-const Empress = props => {
+const Temperance = props => {
   return (
     <div className='card-animation'>
+
+      <img alt='' src={river}
+      className='card-fit-height'
+      style={{ left: '-50%', backgroundImage: 'linear-gradient(red, purple, blue, green, yellow, orange)' }} />
 
     </div>
   )
 }
 
-export default Empress
+export default Temperance
