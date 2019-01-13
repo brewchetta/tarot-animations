@@ -18,7 +18,6 @@
   background: black;
 }
 
-.card-fit-frame {
-  width: 100%;
+.card-fit-height {
   height: 100%;
 }
