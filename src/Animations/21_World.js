@@ -8,18 +8,18 @@ const World = props => {
     <div className='card-animation'>
 
     <img alt='' src={mountains}
-    className='animation-rotate'
-    style={{ width: '250%', position: 'relative', left: '-70%', top: '-20%', filter: 'grayscale(100%)' }}
+    className='animation-rotate-slow'
+    style={{ width: '200%', position: 'relative', left: '-50%', top: '20%', filter: 'grayscale(70%)' }}
     />
 
     <img alt='' src={forest}
-    className='animation-rotate'
-    style={{ width: '150%', position: 'absolute', bottom: '-40%', left: '-20%', filter: 'grayscale(50%)' }}
+    className='animation-rotate-medium'
+    style={{ width: '150%', position: 'absolute', bottom: '-65%', left: '-25%', filter: 'grayscale(60%)' }}
     />
 
     <img alt='' src={town}
-    className='animation-rotate'
-    style={{ width: '100%', position: 'absolute', bottom: '-15%', left: '0%' }}
+    className='animation-rotate-fast'
+    style={{ width: '100%', position: 'absolute', bottom: '-45%', left: '0%' }}
     />
 
     </div>

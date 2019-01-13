@@ -6,8 +6,10 @@ import kitty from '../Assets/2_High_Priestess_Cat.png'
 const HighPriestess = props => {
   return (
     <div className='card-animation'>
-      <img alt='' src={kitty}
-      style={{ height: '100%', position: 'relative', left: '-25%' }} />
+
+      <img alt='' src={kitty} className='inkblot'
+      style={{ height: '100%', position: 'absolute', left: '-25%' }} />
+
     </div>
   )
 }

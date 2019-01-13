@@ -42,11 +42,29 @@
   animation: firefly 12s infinite;
 }
 
+@keyframes inkblot {
+  0% { filter: blur(60px) grayscale(100%) }
+  50% { filter: blur(0) grayscale(70%) }
+  100% { filter: blur(0) grayscale(0%) }
+}
+
+.inkblot {
+  animation: inkblot 20s;
+}
+
 @keyframes rotate {
   from { transform: rotate(0deg)}
   to { transform: rotate(360deg)}
 }
 
-.animation-rotate {
+.animation-rotate-fast {
   animation: rotate 10s infinite linear;
+}
+
+.animation-rotate-medium {
+  animation: rotate 15s infinite linear;
+}
+
+.animation-rotate-slow {
+  animation: rotate 20s infinite linear;
 }
