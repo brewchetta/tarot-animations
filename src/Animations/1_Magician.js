@@ -9,7 +9,7 @@ const Magician = props => {
       <img alt='' src={hand}
       style={{ height: '100%', width: '100%' }} />
 
-      <img alt='' src={fingers} style={{ height: '100%', width: '100%', position: 'relative', top: '-100%' }} />
+      <img alt='' src={fingers} style={{ height: '100%', width: '100%', position: 'relative', top: '-10%' }} />
     </div>
   )
 }
