@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './Animations/5_Hierophant'
+import Card from './Animations/6_Lovers'
 
 export default class CardComponent extends React.Component {
 
