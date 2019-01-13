@@ -1,7 +1,7 @@
 import React from 'react'
-import asset from '../Assets/3_Empress.png'
+import asset from '../Assets/11_Justice.png'
 
-const Empress = props => {
+const Justice = props => {
   return (
     <div className='card-animation'>
 
@@ -9,4 +9,4 @@ const Empress = props => {
   )
 }
 
-export default Empress
+export default Justice

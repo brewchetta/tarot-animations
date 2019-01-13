@@ -1,14 +1,17 @@
 // Chrysalis slowly changes hue, taking a slow lap around the color wheel
 
 import React from 'react'
-import asset from '../Assets/3_Empress.png'
+import chrysalis from '../Assets/12_HangedMan_Chrysalis.png'
 
-const Empress = props => {
+const HangedMan = props => {
   return (
     <div className='card-animation'>
+
+      <img alt='' src={chrysalis}
+      className='card-fit-height' />
 
     </div>
   )
 }
 
-export default Empress
+export default HangedMan
