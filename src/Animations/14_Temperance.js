@@ -10,8 +10,11 @@ const Temperance = props => {
     <div className='card-animation'>
 
       <img alt='' src={river}
-      className='card-fit-height'
-      style={{ left: '-50%', backgroundImage: 'linear-gradient(red, purple, blue, green, yellow, orange)' }} />
+      className='card-fit-height rainbow-river'
+      style={{ left: '-50%', zIndex: '1' }} />
+
+      <div className='rainbow-shift' style={{ height: '100%', width: '100%', backgroundImage: 'linear-gradient(#cccc00, #803300, #800033, #66004d)', position: 'absolute', top: '0', left: '0' }}>
+      </div>
 
     </div>
   )

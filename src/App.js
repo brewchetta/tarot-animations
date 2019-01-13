@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import './App.css';
+import './App.scss';
+// Need to install node-sass to use stylesheet
 import CardComponent from './CardComponent'
 
 class App extends Component {

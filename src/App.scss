@@ -31,6 +31,16 @@
 
 /* General Animations */
 
+@keyframes death-pulse {
+  0% { background: black }
+  50% { background: black }
+  100% { background: #1a1a00 }
+}
+
+.death-pulse {
+  animation: death-pulse 6s infinite alternate;
+}
+
 @keyframes firefly {
   0% { opacity: 0 }
   25% { opacity: 1 }
@@ -68,16 +78,20 @@
   to { transform: rotate(360deg)}
 }
 
-.animation-rotate-fast {
-  animation: rotate 10s infinite linear;
-}
-
 .animation-rotate-medium {
-  animation: rotate 15s infinite linear;
+  animation: rotate 20s infinite linear;
 }
 
 .animation-rotate-slow {
-  animation: rotate 20s infinite linear;
+  animation: rotate 30s infinite linear;
+}
+
+.animation-rotate-slower {
+  animation: rotate 40s infinite linear;
+}
+
+.animation-rotate-slowest {
+  animation: rotate 60s infinite linear;
 }
 
 /* ---------- */

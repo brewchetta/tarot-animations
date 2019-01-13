@@ -10,6 +10,7 @@ const Death = props => {
       style={{ background: 'white', width: '100%', position: 'relative' }} />
 
       <img alt='' src={cat}
+      className='death-pulse'
       style={{ width: '100%', position: 'relative', top: '-10%', background: 'red' }} />
 
     </div>

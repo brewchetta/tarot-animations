@@ -6,26 +6,74 @@ import moon from '../Assets/18_Moon_Fullmoon.png'
 import firefly from '../Assets/18_Moon_Firefly.png'
 import grass from '../Assets/18_Moon_Grass.png'
 
-const Moon = props => {
-  return (
-    <div className='card-animation'>
+class Moon extends React.Component {
 
-    <img alt='' src={moon}
-    style={{ position: 'relative', width: '40%', left: '30%' }}
-    />
+  render() {
+    return (
+      <div className='card-animation'>
 
-    <img alt='' src={grass}
-    className='card-fit-width'
-    style={{ position: 'relative', top: '10%' }}
-    />
+      <img alt='' src={moon}
+      style={{ position: 'relative', width: '40%', left: '30%' }}
+      />
 
-    <img alt='' src={firefly}
-    className='animation-firefly'
-    style={{ width: '10%', position: 'absolute', bottom: '10%', left: '90%'}}
-    />
+      <img alt='' src={grass}
+      className='card-fit-width'
+      style={{ position: 'relative', top: '10%' }}
+      />
 
-    </div>
-  )
+      <img alt='' src={firefly}
+      className='animation-firefly firefly'
+      style={{ width: '10%', position: 'absolute', opacity: 0}}
+      />
+
+      <img alt='' src={firefly}
+      className='animation-firefly firefly'
+      style={{ width: '10%', position: 'absolute', opacity: 0, animationDelay: '2s'}}
+      />
+
+      <img alt='' src={firefly}
+      className='animation-firefly firefly'
+      style={{ width: '10%', position: 'absolute', opacity: 0, animationDelay: '3s'}}
+      />
+
+      <img alt='' src={firefly}
+      className='animation-firefly firefly'
+      style={{ width: '10%', position: 'absolute', opacity: 0, animationDelay: '-1s'}}
+      />
+
+      <img alt='' src={firefly}
+      className='animation-firefly firefly'
+      style={{ width: '10%', position: 'absolute', opacity: 0}}
+      />
+
+      <img alt='' src={firefly}
+      className='animation-firefly firefly'
+      style={{ width: '10%', position: 'absolute', opacity: 0}}
+      />
+
+      <img alt='' src={firefly}
+      className='animation-firefly firefly'
+      style={{ width: '10%', position: 'absolute', opacity: 0}}
+      />
+
+      <img alt='' src={firefly}
+      className='animation-firefly firefly'
+      style={{ width: '10%', position: 'absolute', opacity: 0}}
+      />
+
+      <img alt='' src={firefly}
+      className='animation-firefly firefly'
+      style={{ width: '10%', position: 'absolute', opacity: 0}}
+      />
+
+      <img alt='' src={firefly}
+      className='animation-firefly firefly'
+      style={{ width: '10%', position: 'absolute', opacity: 0}}
+      />
+
+      </div>
+    )
+  }
 }
 
 export default Moon
