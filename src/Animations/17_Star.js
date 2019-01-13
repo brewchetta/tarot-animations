@@ -13,11 +13,11 @@ const StarAnimation = props => {
 
       <img alt='' src={lighthouse}
       className='card-fit-width'
-      style={{ filter: 'hue-rotate(90deg)', top: '20%', zIndex: '100' }}
+      style={{ top: '20%', zIndex: '100' }}
       />
 
       <img alt='' src={stars}
-      className='animation-rotate'
+      className='animation-rotate-medium'
       style={{ height: '150%', position: 'absolute', left: '-50%', top: '-35%' }}
       />
 
