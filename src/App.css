@@ -31,11 +31,22 @@
 
 /* General Animations */
 
+@keyframes firefly {
+  0% { opacity: 0 }
+  25% { opacity: 1 }
+  75% { opacity: 0 }
+  100% { opacity: 0 }
+}
+
+.animation-firefly {
+  animation: firefly 12s infinite;
+}
+
 @keyframes rotate {
   from { transform: rotate(0deg)}
   to { transform: rotate(360deg)}
 }
 
-.rotate {
+.animation-rotate {
   animation: rotate 5s infinite linear;
 }

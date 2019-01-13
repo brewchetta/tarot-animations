@@ -17,7 +17,7 @@ const StarAnimation = props => {
       />
 
       <img alt='' src={stars}
-      className='rotate'
+      className='animation-rotate'
       style={{ height: '150%', position: 'absolute', left: '-50%', top: '-35%' }}
       />
 
