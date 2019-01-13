@@ -1,7 +1,7 @@
 import React from 'react'
-import watch from '../Assets/3_Empress.png'
+import asset from '../Assets/8_Strength.png'
 
-const Emperess = props => {
+const Strength = props => {
   return (
     <div className='card-animation'>
 
@@ -9,4 +9,4 @@ const Emperess = props => {
   )
 }
 
-export default Empress
+export default Strength

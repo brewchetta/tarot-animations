@@ -1,7 +1,7 @@
 import React from 'react'
-import watch from '../Assets/3_Empress.png'
+import asset from '../Assets/3_Empress.png'
 
-const Emperess = props => {
+const Empress = props => {
   return (
     <div className='card-animation'>
 
