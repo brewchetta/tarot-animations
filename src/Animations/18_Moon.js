@@ -8,6 +8,17 @@ import grass from '../Assets/18_Moon_Grass.png'
 
 class Moon extends React.Component {
 
+  componentDidMount() {
+    const fireflies = Array.from(document.getElementsByClassName('firefly'))
+
+    fireflies.forEach(firefly => {
+      firefly.style.bottom = Math.floor(Math.random() * 50) + '%'
+      firefly.style.left = Math.floor(Math.random() * 100) + '%'
+      firefly.style.animationDelay = Math.random() * 10 + 's'
+    })
+
+  }
+
   render() {
     return (
       <div className='card-animation'>
